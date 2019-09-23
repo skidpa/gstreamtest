@@ -3,7 +3,7 @@
 #include <gst/gst.h>
 #include <glib.h>
 
-
+//hello
 static gboolean bus_call (GstBus *bus, GstMessage *msg, gpointer data)
 {
   GMainLoop *loop = (GMainLoop *) data;
